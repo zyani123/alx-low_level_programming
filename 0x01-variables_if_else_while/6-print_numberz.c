@@ -1,6 +1,6 @@
 /*
  * File: 6-print_numberz.c
- * Auth: Brennan D Baraban
+ * Auth: zyani oumaima
  */
 
 #include <stdio.h>
