@@ -1,6 +1,6 @@
 /*
  * File: 3-print_alphabets.c
- * Auth: Brennan D Baraban
+ * Auth: zyani oumaima
  */
 
 #include <stdio.h>
