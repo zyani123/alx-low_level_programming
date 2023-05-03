@@ -1,8 +1,5 @@
 #include "lists.h"
-/**
- * free_list1 - function that frees a list
- * @head: List's beginning.
- */
+
 void free_list1(listn_t **head)
 {
 
@@ -15,12 +12,7 @@ void free_list1(listn_t **head)
 		*head = p;
 	}
 }
-/**
- * add_n1 - function that add a node at the beginning
- * @head: List's beginning.
- * @node: node to be added
- * Return: a flag
- */
+
 
 int add_n1(listn_t **head, listint_t *node)
 {
@@ -58,11 +50,7 @@ int find1(listn_t *head, listint_t *node)
 	}
 	return (find);
 }
-/**
- * free_listint_safe - function that frees a listint_t linked list.
- * @h: List's beginning.
- * Return: number of nodes
- */
+
 size_t free_listint_safe(listint_t **h)
 {
 	size_t cont = 0;
